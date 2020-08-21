@@ -19,5 +19,11 @@ public class ConstructorDocumentacionVehiculoHTML extends ConstructorDocumentaci
 		documentacion.agregarDocumento(documento);
 
 	}
+	@Override
+	public void construyeSolicitudTarjetaCirculacion(String nombreSolicitante) {
+		String documento = "<HTML>Solicitud  de  tarjeta  de circulación de solicitante +" + nombreSolicitante + "</HTML>";
+		documentacion.agregarDocumento(documento);
+
+	}
 
 }

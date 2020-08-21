@@ -8,7 +8,14 @@ public abstract class ConstructorDocumentacionVehiculo {
 	
 	public abstract void construyeSolicitudMatriculacion(String nombreSolicitante);
 	
+	public void construyeSolicitudTarjetaCirculacion(String nombreSolicitante) {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	public Documentacion resultado() {
 		return documentacion;
 	}
+
+	
 }
