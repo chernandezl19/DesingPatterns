@@ -3,6 +3,7 @@ package edu.umg.progra2.pedido;
 public class Usuario {
 
 	public static void main(String[] args) {
+		//instancias para llamar a las funciones
 		Cliente cliente;
 		cliente = new ClienteContado();
 		cliente.nuevoPedido(2000);
@@ -10,7 +11,8 @@ public class Usuario {
 		Cliente cliente2 = new ClienteCredito();
 		cliente2.nuevoPedido(2000);
 		cliente2.nuevoPedido(10000);
-
+		Cliente cliente3 = new ClienteCheque();
+		cliente3.nuevoPedido(2000);
+		cliente3.nuevoPedido(10000);
 	}
-
 }
