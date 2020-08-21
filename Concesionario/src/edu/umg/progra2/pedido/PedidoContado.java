@@ -13,7 +13,7 @@ public class PedidoContado extends Pedido {
 
 	@Override
 	public void paga() {
-		System.out.println("el pago del pedido por importe de: "+importe+"se ha realizado con exito");
+		System.out.println("el pago del pedido por importe de: "+importe+" se ha realizado con exito");
 
 	}
 
