@@ -19,5 +19,11 @@ public class ConstructorDocumentacionVehiculoPDF extends ConstructorDocumentacio
 		documentacion.agregarDocumento(documento);
 
 	}
+	@Override
+	public void construyeSolicitudTarjetaCirculacion(String nombreSolicitante) {
+		String documento = "<PDF>Solicitud  de  tarjeta  de circulación de solicitante +" + nombreSolicitante + "</PDF>";
+		documentacion.agregarDocumento(documento);
+
+	}
 
 }
