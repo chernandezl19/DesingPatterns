@@ -1,8 +1,8 @@
 package edu.umg.progra2.catalogos;
 
-public class AutomovilGasolina extends Automovil {
+public class AutomovilHibrido extends Automovil {
 
-	public AutomovilGasolina(String modelo, String color, int potencia, double espacio) {
+	public AutomovilHibrido(String modelo, String color, int potencia, double espacio) {
 		super(modelo, color, potencia, espacio);
 	}
 
@@ -14,7 +14,7 @@ public class AutomovilGasolina extends Automovil {
 
 	@Override
 	public String toString() {
-		return "AutomovilGasolina [modelo=" + modelo + ", color=" + color + ", potencia=" + potencia + ", espacio="
+		return "AutomovilHibrido [modelo=" + modelo + ", color=" + color + ", potencia=" + potencia + ", espacio="
 				+ espacio + "]";
 	}
 	
