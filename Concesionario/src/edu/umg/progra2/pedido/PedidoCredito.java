@@ -13,7 +13,7 @@ public class PedidoCredito extends Pedido {
 
 	@Override
 	public void paga() {
-		System.out.println("El pedido a credito de :" + importe + " se ha realizado.");
+		System.out.println("El pedido a credito de :" + importe + " se ha realizado correctamente.");
 
 	}
 
