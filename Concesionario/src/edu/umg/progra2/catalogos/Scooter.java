@@ -13,4 +13,9 @@ public abstract class Scooter {
 	}
 	
 	public abstract void mostrarCaracteristicas();
+
+	public void mostrarCaracteristicas1() {
+		// TODO Auto-generated method stub
+		
+	}
 }
