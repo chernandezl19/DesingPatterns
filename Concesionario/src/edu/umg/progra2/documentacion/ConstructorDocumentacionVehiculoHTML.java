@@ -8,16 +8,22 @@ public class ConstructorDocumentacionVehiculoHTML extends ConstructorDocumentaci
 
 	@Override
 	public void construyeSolicitudPedido(String nombreCliente) {
-		String documento = "<HTML>Solicitud  de pedido de cliente +" + nombreCliente + "</HTML>";
+		String documento = "<HTML>Solicitud  de pedido de cliente " + nombreCliente + "</HTML>";
 		documentacion.agregarDocumento(documento);
 
 	}
 
 	@Override
 	public void construyeSolicitudMatriculacion(String nombreSolicitante) {
-		String documento = "<HTML>Solicitud  de matriculacion de solicitante +" + nombreSolicitante + "</HTML>";
+		String documento = "<HTML>Solicitud  de matriculacion de solicitante " + nombreSolicitante + "</HTML>";
 		documentacion.agregarDocumento(documento);
 
+	}
+	
+	@Override
+	public void construyeSolicitudTarjetaCirculacion(String nombreSolicitante) {
+		String documento = "<HTML>Solicitud  de tarjeta de circulacion de solicitante " + nombreSolicitante + "</HTML>";
+		documentacion.agregarDocumento(documento);
 	}
 
 }

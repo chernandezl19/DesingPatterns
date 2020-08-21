@@ -10,7 +10,6 @@ public class Usuario {
 		Cliente cliente2 = new ClienteCredito();
 		cliente2.nuevoPedido(2000);
 		cliente2.nuevoPedido(10000);
-
 	}
 
 }
