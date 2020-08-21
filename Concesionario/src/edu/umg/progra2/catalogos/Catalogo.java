@@ -21,13 +21,22 @@ public class Catalogo {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("1. Vehiculos Electricos");
 		System.out.println("2. Vehiculos de Gasolina");
+		System.out.println("3. Vehiculos Diesel");
+		System.out.println("4. Vehiculos Híbridos");
 		
 		int opcion = reader.nextInt();
 		//instanciamos la fabrica segun la opcion seleccionada
-		if (opcion==1) {
-			fabrica = new FabricaVehiculoElectricidad();
-		}else {
+		if (opcion == 1) { 
+			fabrica = new FabricaVehiculoElectricidad();	
+		}
+		else {
 			fabrica = new FabricaVehiculoGasolina();
+		}
+		if(opcion == 3) { 
+			fabrica = new FabricaVehiculoDiesel();
+		}
+		if(opcion == 4) { 
+			fabrica = new FabricaVehiculoHibrido();
 		}
 		
 		for (int i= 0;i<nAutos;i++) {
@@ -44,6 +53,5 @@ public class Catalogo {
 			scooter.mostrarCaracteristicas();
 		}
 
+		}
 	}
-
-}
