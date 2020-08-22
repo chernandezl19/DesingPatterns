@@ -7,9 +7,13 @@ public class Usuario {
 		cliente = new ClienteContado();
 		cliente.nuevoPedido(2000);
 		cliente.nuevoPedido(10000);
+		
 		Cliente cliente2 = new ClienteCredito();
 		cliente2.nuevoPedido(2000);
 		cliente2.nuevoPedido(10000);
+		Cliente cliente3 = new ClientePagoCheque();
+		cliente3.nuevoPedido(3000);
+		cliente3.nuevoPedido(10000);
 
 	}
 
