@@ -20,4 +20,11 @@ public class ConstructorDocumentacionVehiculoHTML extends ConstructorDocumentaci
 
 	}
 
+	@Override
+	public void ConstruyeSolicitudTarjetaCirculacion(String nombreSolicitante) {
+		// TODO Auto-generated method stub
+		String documento = "<HTML>Solicitud  de tarjeta de circulacion de solicitante +" + nombreSolicitante + "</HTML>";
+		documentacion.agregarDocumento(documento);
+	}
+
 }

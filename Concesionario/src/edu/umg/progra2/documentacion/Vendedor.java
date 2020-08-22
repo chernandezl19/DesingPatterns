@@ -11,6 +11,7 @@ public class Vendedor {
 	public Documentacion construye(String nombreCliente) {
 		constructor.construyeSolicitudPedido(nombreCliente);
 		constructor.construyeSolicitudMatriculacion(nombreCliente);
+		constructor.ConstruyeSolicitudTarjetaCirculacion(nombreCliente);
 		return constructor.resultado();
 	}
 

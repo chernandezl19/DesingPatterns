@@ -8,6 +8,8 @@ public abstract class ConstructorDocumentacionVehiculo {
 	
 	public abstract void construyeSolicitudMatriculacion(String nombreSolicitante);
 	
+	public abstract void ConstruyeSolicitudTarjetaCirculacion(String nombreSolicitante);
+	
 	public Documentacion resultado() {
 		return documentacion;
 	}
