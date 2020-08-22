@@ -6,7 +6,7 @@ public class DocumentacionTxt extends Documentacion{
 	
 	@Override
 	public void agregarDocumento(String documento) {
-		if (documento.startsWith("<txt>"))
+		if (documento.startsWith("txt"))
 			contenido.add(documento);
 
 	}
