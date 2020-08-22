@@ -18,7 +18,7 @@ public class ClienteVehiculo {
 		} else if (opcion == 2) {
 			constructor = new ConstructorDocumentacionVehiculoPDF();
 		} else {
-			constructor = new ConstructorDocumentacionVehiculoTxt();
+			constructor = new ConstructorDocumentacionVehiculoTXT();
 		}
 		Vendedor vendedor = new Vendedor(constructor);
 		Documentacion documentacion = vendedor.construye("Juan Perez");

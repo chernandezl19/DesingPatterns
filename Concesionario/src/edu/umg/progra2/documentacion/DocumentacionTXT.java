@@ -1,6 +1,6 @@
 package edu.umg.progra2.documentacion;
 
-public class DocumentacionTxt extends Documentacion {
+public class DocumentacionTXT extends Documentacion {
 	@Override
 	public void agregarDocumento(String documento) {
 // TODO Auto-generated method stub
