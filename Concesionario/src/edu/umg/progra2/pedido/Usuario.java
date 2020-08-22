@@ -10,6 +10,9 @@ public class Usuario {
 		Cliente cliente2 = new ClienteCredito();
 		cliente2.nuevoPedido(2000);
 		cliente2.nuevoPedido(10000);
+		Cliente cliente3 = new ClienteCheque();
+		cliente3.nuevoPedido(500);
+		cliente3.nuevoPedido(6000);
 
 	}
 
