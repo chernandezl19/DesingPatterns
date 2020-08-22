@@ -5,7 +5,7 @@ public class DocumentacionTxt extends Documentacion {
 	@Override
 	public void agregarDocumento(String documento) {
 		// TODO Auto-generated method stub
-		if (documento.startsWith("<TXT>"))
+		if (documento.startsWith("<Txt>"))
 			contenido.add(documento);
 	}
 
