@@ -21,7 +21,8 @@ public class Catalogo {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("1. Vehiculos Electricos");
 		System.out.println("2. Vehiculos de Gasolina");
-		
+		System.out.println("3. Vehivulos de Diesel");
+		System.out.println("4. Vehivulos Hibridos");
 		int opcion = reader.nextInt();
 		//instanciamos la fabrica segun la opcion seleccionada
 		if (opcion==1) {
