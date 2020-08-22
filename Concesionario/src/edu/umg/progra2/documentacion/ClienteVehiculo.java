@@ -20,7 +20,7 @@ public class ClienteVehiculo {
 			constructor = new ConstructorDocumentacionVehiculoTxt();
 		}
 
-		//comenta
+		//coment
 		Vendedor vendedor = new Vendedor(constructor);
 		Documentacion documentacion = vendedor.construye("Juan Perez");
 		
