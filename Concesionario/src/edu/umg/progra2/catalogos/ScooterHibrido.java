@@ -8,6 +8,7 @@ public class ScooterHibrido extends Scooter {
 	@Override
 	public void mostrarCaracteristicas() {
 // TODO Auto-generated method stub
+		System.out.println(this.toString());
 	}
 
 	public String toString() {
