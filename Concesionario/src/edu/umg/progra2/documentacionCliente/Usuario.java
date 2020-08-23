@@ -8,6 +8,8 @@ public class Usuario {
 		documentacionEnBlanco.incluye(new OrdenDePedido());
 		documentacionEnBlanco.incluye(new CertificacionCesion());
 		documentacionEnBlanco.incluye(new SolicitudMatriculacion());
+		documentacionEnBlanco.incluye(new SolicitudTarjetaCirculacion());
+		
 		//creacion documentacion para 2 nuevos clientes
 		DocumentacionCliente documentacionCliente1 = new DocumentacionCliente("Juan Perez");
 		DocumentacionCliente documentacionCliente2 = new DocumentacionCliente("Pedro Molina");
