@@ -1,4 +1,4 @@
-package com.umg.tarea6;
+package com.umg.Flyweight;
 import java.util.*;
 public class VehiculoSolicitado {
     protected List<OpcionVehiculo> opciones = new ArrayList<OpcionVehiculo>();

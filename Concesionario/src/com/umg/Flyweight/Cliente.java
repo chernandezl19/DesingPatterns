@@ -1,4 +1,4 @@
-package com.umg.tarea6;
+package com.umg.Flyweight;
 
 public class Cliente {
     public static void main(String[] args)

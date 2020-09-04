@@ -1,4 +1,4 @@
-package com.umg.tarea6;
+package com.umg.Flyweight;
 import java.util.*;
 public class FabricaOpcion {
     protected Map<String, OpcionVehiculo> opciones = new TreeMap<String, OpcionVehiculo>();
