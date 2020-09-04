@@ -1,6 +1,6 @@
 package mediador;
 
-public abstract class Control {
+public abstract class Control{
 	
 	protected String valor = "";
 	public Formulario director;
