@@ -16,7 +16,7 @@ public class PopupMenu extends Control{
 		System.out.println(String.format("Información de: %s", nombre));
 		System.out.println(String.format("Valor actual: %s", getValor()));
 			for (int indice=0; indice<opciones.size(); indice++) {
-				System.out.println(String.format("- %s %", indice, opciones.get(indice)));
+				System.out.println(String.format("- %s %s", indice, opciones.get(indice)));
 			}
 		int eleccion = reader.nextInt();
 		

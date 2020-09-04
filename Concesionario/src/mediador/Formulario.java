@@ -6,10 +6,10 @@ public class Formulario {
 	protected List<Control> controles = 
 		new ArrayList<Control>();
 	
-	protected List<Control> controlesCoprestalario = 
+	protected List<Control> controlesCoprestatario = 
 		new ArrayList<Control>();
 	
-	protected PopupMenu menuCoprestalario;
+	protected PopupMenu menuCoprestatario;
 	
 	Boton botonOK;
 	
@@ -20,8 +20,13 @@ public class Formulario {
 		control.setDirector(this);
 	}
 	
-	public void setMenuCoprestalario (PopupMenu menuCoprestalario) {
-		this.menuCoprestalario = menuCoprestalario;
+	public void agregaControlCoprestatario (Control control) {
+		controlesCoprestatario.add(control);
+		control.setDirector(this);
+	}
+	
+	public void setMenuCoprestatario (PopupMenu menuCoprestalario) {
+		this.menuCoprestatario = menuCoprestalario;
 	}
 	
 	public void setBotonOK (Boton botonOK) {
@@ -29,9 +34,9 @@ public class Formulario {
 	}
 	
 	public void controlModificado (Control control) {
-		if(control == menuCoprestalario)
-			if (control.getValor().equals("con prestalario")) {
-				for(Control elementoCoprestalario: controlesCoprestalario)
+		if(control == menuCoprestatario)
+			if (control.getValor().equals("con coprestatario")) {
+				for(Control elementoCoprestalario: controlesCoprestatario)
 						elementoCoprestalario.informa();
 			}
 		if(control == botonOK) {

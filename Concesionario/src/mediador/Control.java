@@ -39,3 +39,4 @@ public abstract class Control{
 	protected void modifica() {
 		getDirector().controlModificado(this);
 	}
+}

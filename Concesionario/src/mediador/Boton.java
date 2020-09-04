@@ -8,4 +8,12 @@ public class Boton extends Control{
 	public Boton(String nombre) {
 		super(nombre);
 	}
+	
+	public void informa() {
+		System.out.println("¿Desea activar el boton " + nombre + "?");
+		String respuesta = reader.nextLine();
+		if (respuesta.toLowerCase().equals("si")) {
+			this.modifica();
+		}
+	}
 }
