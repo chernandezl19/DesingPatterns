@@ -1,5 +1,10 @@
 package mediador;
 
+// ****************** CARLOS ARNULFO VASQUEZ ALFARO ****************************//
+// ******************       0907 - 19 - 2382		****************************//
+// ******************  		PATRON: MEDIATOR 		****************************//
+//*******************		GRUPO #4				****************************//
+
 public class Usuario {
 	public static void main(String[] args) {
 		Formulario formulario = new Formulario();
