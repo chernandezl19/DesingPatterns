@@ -1,0 +1,20 @@
+package edu.umg.progra2.catalogos;
+
+public class AutomovilDiesel extends Automovil{
+
+	public AutomovilDiesel(String modelo, String color, int potencia, double espacio) {
+		super(modelo, color, potencia, espacio);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void mostrarCaracteristicas() {
+		System.out.println(this.toString());
+		
+	}
+	@Override
+	public String toString() {
+		return "AutomovilDiesel [modelo=" + modelo + ", color=" + color + ", potencia=" + potencia + "]";		
+	}
+
+}
