@@ -15,19 +15,28 @@ public class Catalogo {
 	public static int nScooters = 2;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		FabricaVehiculo fabrica;
+		FabricaVehiculo fabrica = null;
 		Automovil[] autos = new Automovil[nAutos];
 		Scooter[] scooters = new Scooter[nScooters];
 		Scanner reader = new Scanner(System.in);
 		System.out.println("1. Vehiculos Electricos");
 		System.out.println("2. Vehiculos de Gasolina");
+		System.out.println("3. Vehiculos Diesel");
+		System.out.println("4. Vehiculos Hidridos");
 		
 		int opcion = reader.nextInt();
 		//instanciamos la fabrica segun la opcion seleccionada
 		if (opcion==1) {
 			fabrica = new FabricaVehiculoElectricidad();
-		}else {
+		}
+		if(opcion==2){
 			fabrica = new FabricaVehiculoGasolina();
+		}
+		if(opcion==3) {
+			fabrica = new FabricaVehiculosDiesel();	
+		}
+		if(opcion==4) {
+			fabrica = new FabricaVehiculosHidridos();
 		}
 		
 		for (int i= 0;i<nAutos;i++) {
@@ -43,7 +52,7 @@ public class Catalogo {
 		for (Scooter scooter : scooters) {
 			scooter.mostrarCaracteristicas();
 		}
-
+	
 	}
 
 }
