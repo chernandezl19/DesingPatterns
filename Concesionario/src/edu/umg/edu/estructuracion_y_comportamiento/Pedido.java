@@ -19,8 +19,8 @@ public abstract class Pedido
 	}
 	public void visualiza () 
 	{
-		System.out.println("Pedido");
-		System.out.println("Importe Sin IVA" + importeSinIVA);
-		System.out.println("Importe Con IVA" + importeConIVA);
+		System.out.println("pedido");
+		System.out.println("importe Sin IVA" + importeSinIVA);
+		System.out.println("importe Con IVA" + importeConIVA);
 	}
 }
